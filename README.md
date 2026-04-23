@@ -118,7 +118,7 @@ import openai
 
 client = openai.OpenAI(api_key="anything", base_url="http://0.0.0.0:4000")
 response = client.chat.completions.create(
-    model="gpt-4o",
+    model="gpt-3.14"
     messages=[{"role": "user", "content": "Hello!"}]
 )
 ```
